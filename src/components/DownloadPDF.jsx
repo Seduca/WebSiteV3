@@ -262,38 +262,38 @@ const PDFView = ({ click }) => {
                                         <View class="relative overflow-x-auto">
                                             <View class="w-full text-[10px] text-left rtl:text-right text-gray-700 ">
                                                 <View style={{ display: 'flex', flexDirection: 'row', border: '1px solid black', justifyContent: 'space-between', fontSize: '10px', fontWeight: 'bold', color: 'white', backgroundColor: '#3d57d6', padding: '5px', fontFamily: 'Inter', fontWeight: 'bold' }} >
-                                                    <Text style={{ width: '33%', }}>
+                                                    <Text style={{ width: '33%', padding: '5px' }}>
                                                         CARRERAS O <Br/>CURSOS DE<Br/>CAPACITACIÓN
                                                     </Text>
-                                                    <Text style={{ width: '33%', borderLeft: '1px solid black', }}>
+                                                    <Text style={{ width: '33%', borderLeft: '1px solid black', padding: '5px' }}>
                                                         NIVEL <Br/>ACADÉMICO
                                                     </Text>
-                                                    <Text style={{ width: '33%', borderLeft: '1px solid black', }}>
+                                                    <Text style={{ width: '33%', borderLeft: '1px solid black', padding: '5px' }}>
                                                         TURNOS
                                                     </Text>
-                                                    <Text style={{ width: '33%', borderLeft: '1px solid black', }}>
+                                                    <Text style={{ width: '33%', borderLeft: '1px solid black', padding: '5px' }}>
                                                         RÉGIMEN DE <Br/>ESTUDIO
                                                     </Text>
-                                                    <Text style={{ width: '33%', borderLeft: '1px solid black', }}>
+                                                    <Text style={{ width: '33%', borderLeft: '1px solid black', padding: '5px' }}>
                                                         RESOLUCIÓN <Br/>MINISTERIAL
                                                     </Text>
                                                 </View>
                                                 <View>
                                                     {data2 && data2 && Object.values(data2).map((item, index) => {
                                                         return <View style={{ backgroundColor: '#dee3ff', border: '1px solid black', borderTop: 'none', fontSize: '10px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', padding: '5px' }}>
-                                                            <Text style={{ width: '33%', ...styles.textLight }}>
+                                                            <Text style={{ width: '33%', ...styles.textLight, padding: '5px' }}>
                                                                 {item[`ip`]}
                                                             </Text>
-                                                            <Text style={{ width: '33%', borderLeft: '1px solid black', ...styles.textLight }}>
+                                                            <Text style={{ width: '33%', borderLeft: '1px solid black', ...styles.textLight, padding: '5px' }}>
                                                                 {item[`ic`]}
                                                             </Text>
-                                                            <Text style={{ width: '33%', borderLeft: '1px solid black', ...styles.textLight }}>
+                                                            <Text style={{ width: '33%', borderLeft: '1px solid black', ...styles.textLight, padding: '5px' }}>
                                                                 {data2[`item${index}`].mañana && 'Mañana \n'}{data2[`item${index}`].tarde && 'Tarde \n'}{data2[`item${index}`].noche && 'Noche'}
                                                             </Text>
-                                                            <Text style={{ width: '33%', borderLeft: '1px solid black', ...styles.textLight }}>
+                                                            <Text style={{ width: '33%', borderLeft: '1px solid black', ...styles.textLight, padding: '5px' }}>
                                                                 {item[`re`]}
                                                             </Text>
-                                                            <Text style={{ width: '33%', ...styles.textLight, borderLeft: '1px solid black', }}>
+                                                            <Text style={{ width: '33%', ...styles.textLight, borderLeft: '1px solid black', padding: '5px' }}>
                                                                 {item[`rs`]}
                                                             </Text>
                                                         </View>
