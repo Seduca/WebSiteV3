@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.seduca.twa",
+        "sha256_cert_fingerprints": ["E9:53:48:A9:1C:9C:E3:4D:87:8E:B6:AF:BB:5E:B3:29:2B:ED:AF:9F:D4:39:95:2F:EB:F8:5C:CA:C2:C3:00:C1"]
+      }
+    }]
