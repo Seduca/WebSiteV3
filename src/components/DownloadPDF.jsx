@@ -261,7 +261,7 @@ const PDFView = ({ click }) => {
                                         {/* <h5 className='text-center text-[10px] font-bold'>CARRERAS<Br /> </h5> */}
                                         <View class="relative overflow-x-auto">
                                             <View class="w-full text-[10px] text-left rtl:text-right text-gray-700 ">
-                                                <View style={{ display: 'flex', flexDirection: 'row', border: '1px solid black', justifyContent: 'space-between', fontSize: '10px', fontWeight: 'bold', color: 'white', backgroundColor: '#3d57d6', padding: '5px', fontFamily: 'Inter', fontWeight: 'bold' }} >
+                                                <View style={{ display: 'flex', flexDirection: 'row', border: '1px solid black', justifyContent: 'space-between', fontSize: '10px', fontWeight: 'bold', color: 'white', backgroundColor: '#3d57d6', fontFamily: 'Inter', fontWeight: 'bold' }} >
                                                     <Text style={{ width: '33%', padding: '5px' }}>
                                                         CARRERAS O <Br/>CURSOS DE<Br/>CAPACITACIÓN
                                                     </Text>
@@ -280,7 +280,7 @@ const PDFView = ({ click }) => {
                                                 </View>
                                                 <View>
                                                     {data2 && data2 && Object.values(data2).map((item, index) => {
-                                                        return <View style={{ backgroundColor: '#dee3ff', border: '1px solid black', borderTop: 'none', fontSize: '10px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', padding: '5px' }}>
+                                                        return <View style={{ backgroundColor: '#dee3ff', border: '1px solid black', borderTop: 'none', fontSize: '10px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between',  }}>
                                                             <Text style={{ width: '33%', ...styles.textLight, padding: '5px' }}>
                                                                 {item[`ip`]}
                                                             </Text>
