@@ -194,10 +194,10 @@ export default function Home() {
 
         </div>
         <div className='flex flex-col w-full justify-center items-center text-[16px] shadow-2xl border p-10 bg-white space-y-5'>
-          <p className='text-[18px] font-bold'>Accede fácilmente a travez de nuestro código QR</p>
+          <p className='text-[18px] font-bold'>Accede fácilmente a través de nuestro código QR</p>
           <div>
               <img src="/qr.png" className='h-[150px]' alt="" />
-          <button className='bg-black text-white px-10 py-2 rounded-full font-semibold'>Escaneame</button>
+          <button className='bg-black text-white px-10 py-2 rounded-full font-semibold'>Escanéame</button>
           </div>
         
         </div>
